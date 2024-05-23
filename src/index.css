@@ -1,0 +1,617 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.app{
+  
+    
+    
+    background-image: url(./images/light\ blue.jpg);
+}
+.intro{ 
+    background-image:url(./images/dog\ and\ cat.jpg);
+    height:300px;
+    background-size: cover;
+ margin-bottom: 2rem;
+ position: relative;
+ background-position: center;
+ 
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.why_title h2{
+color: white;
+text-align: center;
+font-size: 2.5rem;
+margin-bottom: 2;
+}
+
+.why_us{
+display: flex;
+justify-content: space-between;
+padding: 2rem;
+margin-bottom: 1rem;
+margin: 0.5rem;
+}
+
+.why_us p{
+    text-align: center;
+}
+.why_us img{
+    width: 20%;
+    border-radius: 30px;
+    margin-bottom: 0.5rem;
+}
+.why_us h6{
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.services_container{
+    
+
+    height: 400px;
+    width: auto;
+    background-color: rgb(29, 109, 146);
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    align-items: self-end;
+   
+}
+
+.services_container h2{
+    text-align: center;
+    font-size: 2.3rem;
+margin-bottom: 2rem;
+color: white;
+}
+.services img{
+    margin-bottom: 0.5rem;
+    border-radius: 30px;
+    width: 50px;
+}
+.services p{
+    text-align: center;
+    gap: 1%;
+}
+
+.services h6{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.down{
+padding-bottom: 2rem;
+}
+.news_and_form{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.form{
+    background-color: gray;
+    width: 300px;
+    height: 500px;
+
+    text-align: center;
+}
+.form input{
+    background-color:white;
+}
+
+.form input[type="text"]{
+    height: 60px;
+    width: 100%;
+    outline: none;
+}
+.form textarea {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.form input[type="submit"] {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(78, 148, 252, 0.884);
+}
+.form input[type="button"] {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    
+}
+.form_section,.text_section{
+    display: flex;
+    justify-content: space-around;
+}
+.s{
+    display: flex;
+    justify-content: baseline;
+}
+.form h2{
+    text-align: center;
+    }
+.form h2,p{
+    text-align: center;
+    margin: 0;
+}
+.news_container{
+    width: 30%;
+    height: 500px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+.news_container h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.news_main_articles{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+.news_main_articles a{
+    margin: 1rem;
+}
+.news_container a{
+    color: black;
+    text-decoration: none;
+    margin: 1rem;
+}
+.news_main_articles cite{
+    margin-left: 1rem;
+    text-align: center;
+}
+.news_container a:hover{
+    color: orange;
+}
+.news_article a{
+    text-decoration: none;
+    color: black;
+}
+
+.news_article a:hover{
+    color: orange;
+}
+.news_main_articles img{
+    width:100%;
+    height: 100px;
+}
+.link li{
+    list-style: none;
+
+}
+.offlink li{
+    list-style: none;
+}
+.link  li a{
+    text-decoration: none;
+    padding:1rem;
+    color: black;
+margin-right: .5rem;
+}
+.offlink li a{
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    margin-right: .5rem;
+}
+.link ul{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.offlink ul{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.intro ul li a:hover{
+    color: white;
+}
+
+ .logo{
+    margin: .5rem;
+
+ }
+
+ 
+ h1{
+    text-align: left;
+    padding-left:0;
+ }
+ 
+
+ 
+ .prices{
+     background-color: black;
+     height: 400px;
+     
+ }
+ .prices:hover{
+     transition:1.5s;
+ }
+ 
+.prices section img{
+    width: 120px;
+    height:200px;
+
+}
+.prices{
+    display: flex;
+    justify-content: center;
+padding: 3rem;
+gap: 4%;
+}
+
+.prices{
+    transition: 1s;
+}
+.prices img:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.vetenarians_container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+align-items: center;
+justify-content: center;
+    width: 100%;
+}
+.vet p{
+    text-align: center;
+    justify-content:center;
+    display: flex;
+    align-content: center;
+}
+.vet img{
+    width: 88%;
+    height: 200px;
+    
+}
+
+.vetenarians_slider{
+background-color: coral;
+margin: 1rem;
+height: 100px;
+margin-bottom: 1rem;
+display: flex;
+    justify-content: space-around;
+}
+.vetenarians_slider h4{
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    padding: 1rem;
+}
+.vetenarians_slider a{
+    color: white;
+}
+.services_container{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.footer_container{
+    background-color:black;
+    color: white;
+    height: 300px;
+    padding: 1rem;
+}
+.table{
+    color: white;
+}
+
+.why_us section{
+padding: 1%;
+}
+.services section{
+    padding: 1%;
+}
+#button{
+    position:absolute;
+    top: .75rem;
+    right: 1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    
+}
+
+.bar{
+    width:100% ;
+    height:3px ;
+    background-color:white ;
+    border-radius: 10px;
+}
+.vetenarians_slider img{
+    width:40% ;
+    height: 50px;
+}
+.testimonial_card{
+    
+    text-align: center;
+box-shadow: 1px 12px 8px 5px #aaaaaa;
+    max-width: 500px;
+    height: 200px;
+    margin: auto;
+    background-color:white;
+}
+
+.testimonial{
+
+    margin: 2rem;
+    text-align: center;
+    
+
+
+}
+@media only screen and (max-width:328px){
+    .news_container{
+        width: 100%;
+    }
+    .prices img{
+        width: 20px;
+    }
+    .form{
+        width: 100%;
+    }
+    .prices{
+        width: 100%;
+    }
+    .prices{
+        gap: 1%;
+    }
+    .prices section img{
+        width:55px;
+    }
+}
+@media only screen and (max-width:800px){
+    .offlink ul li a{
+        font-size: 18px;
+    }
+    .testimonial_card{
+        max-width: 300px;
+    }
+    .offlink  li a{
+        text-decoration: none;
+        padding:1rem;
+        color:white;
+    margin-right: .5rem;
+    }
+    
+    .offlink ul{
+list-style: none;
+    }
+    .offlink ul{
+        display: flex;
+        flex-direction: column;
+    }
+.intro ul li{
+    font-size:10px;
+}
+.offlink a:hover{
+background-color: red;
+transition: 1s ease-in-out;
+}
+
+ .news_and_form{
+    flex-direction: column;
+ }
+ .footer{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .footer_container{
+    height: 590px;
+ }
+ .why_us{
+    padding:1rem;
+text-align: none;
+    margin: 0;
+ }
+ .why_us section{
+padding: 1%;
+ }
+ .why_title h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+
+    }
+
+ .services{
+    margin: 1rem;
+    padding: 0rem;
+}
+.services section{
+padding: 1%;
+}
+.services_container{
+    height: 300px;
+}
+
+.services_container h2{
+    font-size: 2rem;
+padding: 1rem;
+}
+ .footer section{
+    margin-bottom: 1rem;
+ }
+  .logo h1{
+     margin-left: 5px;
+    font-size: 16px;
+    
+     
+ }
+.news_container{
+    width: 100%;
+}
+.form input[type = "number"]{
+height: 40px;
+width: 100%;
+}
+ h2{
+     text-align: center;
+     padding:100;
+     text-transform: uppercase;
+     font-weight: bold;
+     color: white;
+     font-size: 20px;
+ }
+ 
+.hover{
+    transition: 1s;
+}
+.hover img:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.link ul a{
+    color: white;
+    text-decoration: none;
+font-size:18px;
+}
+
+
+.link ul li a:hover{
+    transition: 1s;
+    color: rgb(184, 46, 46);
+}
+.intro{
+    height: 100px;
+}
+.prices section img{
+    width: 50px;
+}
+.why_us img{
+    width: 53px;
+    height: 53px;
+}
+.services img{
+    width: 53px;
+    height: 53px;
+
+}
+.logo_img{
+    width: 30px;
+    height: 30px;
+}
+.link{
+position: absolute;
+ right:0 ;
+top: 56px;
+ background-image: url(./images/royal\ blue.jpg);
+width:100%;
+height: calc(60vh - 60px);
+transition: all 0.3s ease-in;
+overflow:hidden ;
+}
+#button{
+    cursor: pointer;
+    display: flex;
+}
+.intro{
+    background-image: url(./images/royal\ blue.jpg);
+}
+.link ul{
+    display: flex;
+    flex-direction: column;
+}
+.link ul li{
+
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+.offlink ul li{
+    margin-bottom: 25px;
+}
+.offlink ul li a{
+    display: flex;
+    flex-direction: column;
+}
+
+.offlink{
+    
+    width: 0;
+    position: absolute;
+    right: 0;
+    top: 56px;
+    background-image: url(./images/royal\ blue.jpg);
+    
+   
+
+height: calc(60vh - 60px);
+transition: all 0.3s ease-in;
+overflow: hidden;
+}
+.intro{
+    height: 60px;
+}
+.email{
+    display: none;
+}
+
+}
+
+.logo p{
+    font-size: 1rem;
+}
+    .logo h4{
+    font-size:1.5rem;
+    color: white;
+}
+.logo h1{
+
+    margin-bottom:0.5rem;
+}
+.logo button{
+    border-radius: 1rem;
+    background-color: rgba(255, 30, 0, 0.295);
+    text-align: center;
+    font-size: .8rem;
+    padding: .4rem;
+}
+.logo button:hover{
+    background-color: tomato;
+
+}
