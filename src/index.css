@@ -9,12 +9,22 @@
 .app{
   
     
+
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 40;
+    
+    
     
     background-image: url(./images/light\ blue.jpg);
+    
 }
 .intro{ 
-    background-image:url(./images/dog\ and\ cat.jpg);
-    height:300px;
+    background-image: url(./images/royal\ blue.jpg);
+    height:auto;
     background-size: cover;
  margin-bottom: 2rem;
  position: relative;
@@ -26,82 +36,71 @@
     justify-content: space-between;
     height: 100%;
 }
+/*THIS ONE IS THE "SERVICES" SECTION*/
 .why_title h2{
 color: white;
 text-align: center;
-font-size: 2.5rem;
-margin-bottom: 2;
+font-size: 2rem;
+
 }
 
 .why_us{
 display: flex;
-justify-content: space-between;
-padding: 2rem;
-margin-bottom: 1rem;
-margin: 0.5rem;
+justify-content: space-around;
 }
 
-.why_us p{
-    text-align: center;
-}
-.why_us img{
-    width: 20%;
-    border-radius: 30px;
-    margin-bottom: 0.5rem;
-}
-.why_us h6{
-    margin-bottom: 0.5rem;
-    text-align: center;
-}
+
+/*THIS ONE IS THE "ABOUT SECTION'S" SECTION*/
 .services_container{
-    
+    width: 100%;
+    background-image: url(./images/royal\ blue.jpg);
+    height: auto;
+}
 
-    height: 400px;
-    width: auto;
-    background-color: rgb(29, 109, 146);
-}
-.services{
-    display: flex;
-    justify-content: space-around;
-    
-    padding: 2.5rem;
-    margin-bottom: 2rem;
-    align-items: self-end;
-   
-}
 
 .services_container h2{
     text-align: center;
-    font-size: 2.3rem;
-margin-bottom: 2rem;
+    font-size: 2rem;
+margin-bottom: .5rem;
 color: white;
+padding: 0.2rem;
+
 }
-.services img{
-    margin-bottom: 0.5rem;
-    border-radius: 30px;
-    width: 50px;
-}
-.services p{
-    text-align: center;
-    gap: 1%;
+.services_container img{
+    width:200px;
+    height: 350px;
+    float: left;
+    margin-right: .9rem;
+    
 }
 
-.services h6{
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-.down{
-padding-bottom: 2rem;
-}
+.services_container {
+   /* max-width: auto;*/
+    
+    padding: 5.4px;
+   
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .services_container p {
+    
+    text-align: left;
+   font-family: cursive;
+  }
+
+  /*THIS IS THE CSS SECTION FOR THE STYLING OF THE NEWS AND FORM*/
+  
 .news_and_form{
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
-    gap: 2rem;
-    margin-bottom: 1rem;
+    
+
     margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+   padding: 15px;
 }
 .form{
     background-color: gray;
@@ -112,6 +111,9 @@ padding-bottom: 2rem;
 }
 .form input{
     background-color:white;
+}
+.form input:focus{
+    background-image: url(./images/royal\ blue.jpg);
 }
 
 .form input[type="text"]{
@@ -124,7 +126,8 @@ padding-bottom: 2rem;
     height: 100px;
     background-color: white;
 }
-.form input[type="submit"] {
+.form input[type="submit" ] {
+    border:1px solid #ddd;
     border-radius: 10px;
     width: 100px;
     height: 30px;
@@ -195,6 +198,75 @@ padding-bottom: 2rem;
     width:100%;
     height: 100px;
 }
+
+.popup1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .popup1-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 50%;
+  }
+
+  
+  .popup2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .popup2-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 50%;
+  }
+
+  .close1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .close2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  
+
+  
+
+
+
+
+
+
 .link li{
     list-style: none;
 
@@ -233,7 +305,8 @@ margin-right: .5rem;
 
  .logo{
     margin: .5rem;
-
+width: 100px;
+height: 100px;
  }
 
  
@@ -246,11 +319,13 @@ margin-right: .5rem;
  
  .prices{
      background-color: black;
-     height: 400px;
+     height: auto;
      
  }
  .prices:hover{
      transition:1.5s;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
  }
  
 .prices section img{
@@ -261,7 +336,7 @@ margin-right: .5rem;
 .prices{
     display: flex;
     justify-content: center;
-padding: 3rem;
+padding: 10px;
 gap: 4%;
 }
 
@@ -315,32 +390,31 @@ display: flex;
 }
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 1rem;
 }
 .footer img{
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 
 }
 
 .footer_container{
     background-color:black;
     color: white;
-    height: 300px;
-    padding: 1rem;
+    height: auto;
+    padding: 10px;
 }
-.table{
+.footer_container h2{
     color: white;
+    font-family: cursive;
 }
 
 .why_us section{
 padding: 1%;
 }
-.services section{
-    padding: 1%;
-}
+
 #button{
     position:absolute;
     top: .75rem;
@@ -371,42 +445,35 @@ box-shadow: 1px 12px 8px 5px #aaaaaa;
     height: 200px;
     margin: auto;
     background-color:white;
+    position: relative;
+    padding: 10px;
 }
 
 .testimonial{
 
     margin: 2rem;
     text-align: center;
-    
+    position: relative;
 
 
 }
-@media only screen and (max-width:328px){
-    .news_container{
-        width: 100%;
-    }
-    .prices img{
-        width: 20px;
-    }
-    .form{
-        width: 100%;
-    }
-    .prices{
-        width: 100%;
-    }
-    .prices{
-        gap: 1%;
-    }
-    .prices section img{
-        width:55px;
-    }
+.testimonial_card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 100px;
 }
+
 @media only screen and (max-width:800px){
     .offlink ul li a{
         font-size: 18px;
     }
     .testimonial_card{
-        max-width: 300px;
+        max-width: 350px;
+    }
+    .testimonial_card img{
+        left: 25px;
     }
     .offlink  li a{
         text-decoration: none;
@@ -441,7 +508,7 @@ transition: 1s ease-in-out;
  }
  
  .footer_container{
-    height: 590px;
+    height: auto;
  }
  .why_us{
     padding:1rem;
@@ -458,30 +525,10 @@ padding: 1%;
 
     }
 
- .services{
-    margin: 1rem;
-    padding: 0rem;
-}
-.services section{
-padding: 1%;
-}
-.services_container{
-    height: 300px;
-}
 
-.services_container h2{
-    font-size: 2rem;
-padding: 1rem;
-}
- .footer section{
-    margin-bottom: 1rem;
- }
-  .logo h1{
-     margin-left: 5px;
-    font-size: 16px;
-    
-     
- }
+
+
+
 .news_container{
     width: 100%;
 }
@@ -521,17 +568,13 @@ font-size:18px;
     height: 100px;
 }
 .prices section img{
-    width: 50px;
+    width: 70px;
 }
 .why_us img{
     width: 53px;
     height: 53px;
 }
-.services img{
-    width: 53px;
-    height: 53px;
 
-}
 .logo_img{
     width: 30px;
     height: 30px;
@@ -593,25 +636,46 @@ overflow: hidden;
 
 }
 
-.logo p{
-    font-size: 1rem;
-}
-    .logo h4{
-    font-size:1.5rem;
-    color: white;
-}
-.logo h1{
 
-    margin-bottom:0.5rem;
+@media only screen and (max-width:328px){
+    .news_container{
+        width: 100%;
+    }
+    .prices img{
+        width: 20px;
+    }
+    .form{
+        width: 100%;
+    }
+    .prices{
+        width: 100%;
+    }
+    .prices{
+        padding: 10px;
+    }
+    .prices{
+        gap: 2%;
+    }
+    .prices section img{
+        width:58px;
+    }
 }
-.logo button{
-    border-radius: 1rem;
-    background-color: rgba(255, 30, 0, 0.295);
-    text-align: center;
-    font-size: .8rem;
-    padding: .4rem;
-}
-.logo button:hover{
-    background-color: tomato;
 
+
+
+
+
+
+/*Google fonts*/
+
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 2,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
+

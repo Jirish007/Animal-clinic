@@ -1,6 +1,10 @@
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+//THESE ARE THE IMAGES FOR THE TESTIMONY SECTION OF TE WEBSITE
+import Person1 from './out-person1.jpg'
+import Person2 from './out-person2.jpg'
+import Person3 from './out-person3.jpg'
 function Testimonials() {
 
     
@@ -53,15 +57,18 @@ function Testimonials() {
 <p>Sandton animal clinic saved my dog from cancer and now he is as lively as ever.
     Thanks to the great vetenarians that are giving their all to save lives.
 </p>
+<img src={Person1}></img>
 <h4>Gregory Peterson</h4>
 </div>
 <div className="testimonial_card">
 <p>One of the best clinics out there, really was an amazing experience knowing your pet is well taken care of</p>
-<h4>Johnson Bergley</h4>
+<img src={Person2}></img>
+<h4>Amachawa Inke</h4>
 </div>
 <div className="testimonial_card">
-    <p>Excellent service as always keep it up</p>
-    <h4>Thabo Mayima</h4>
+    <p>Excellent service as always keep it up, truly their services can not be matched.From surgery to health care they got it all</p>
+    <img src={Person3}></img>
+    <h4>Xing Cai</h4>
 </div>
         </Slider>
         </>
