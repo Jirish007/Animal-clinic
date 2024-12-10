@@ -25,6 +25,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldDog} from '@fortawesome/free-solid-svg-icons';
 import { faUserDoctor } from '@fortawesome/free-solid-svg-icons/faUserDoctor';
 import { faSuitcaseMedical } from '@fortawesome/free-solid-svg-icons/faSuitcaseMedical';
+import { faMessage } from '@fortawesome/free-solid-svg-icons/faMessage';
 //THIS IS THE LOGO//
 import Logo from "./images/logo.jpg"
 function App() {
@@ -93,7 +94,10 @@ setToggle(!toggle)
   <FontAwesomeIcon icon={faSuitcaseMedical} beat size="2xl" />
     <h6>24 Hour Care</h6>
     </section>
-  
+  <section>
+  <FontAwesomeIcon icon={faMessage} beat size="2xl" />
+  <h6>Online-vet support</h6>
+  </section>
  </div>
  <div className='services_container' id='section3'>
   <h2>Why Us?</h2>
