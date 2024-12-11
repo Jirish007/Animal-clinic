@@ -1,33 +1,26 @@
-
-import './App.css';
+import { lazy,Suspense } from 'react';
 import './index.css';
-import Form from './components/Form';
-import News from './components/News';
-import Vetenarians from './components/Vetenarians';
-import Testimonials from './components/Testimonials';
 
-
-import image3 from './images/chihuahua.jpg';
-import image4 from './images/dotted dog.jpg';
-import image5 from './images/dog on grass.jpg';
-import image6 from './images/scary dog.jpg';
-
-import image20 from './images/24 hour care.jpg'
-
-import image25 from './images/surgery.jpg'
-
+import imageAbout from "./images/about vet.jpg"
 import image30 from './images/facebook.jpg'
 import image31 from './images/youtube.jpg'
 import image32 from './images/instagram.jpg'
-import imageAbout from './images/about vet.jpg'
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldDog} from '@fortawesome/free-solid-svg-icons';
 import { faUserDoctor } from '@fortawesome/free-solid-svg-icons/faUserDoctor';
 import { faSuitcaseMedical } from '@fortawesome/free-solid-svg-icons/faSuitcaseMedical';
 import { faMessage } from '@fortawesome/free-solid-svg-icons/faMessage';
+
 //THIS IS THE LOGO//
-import Logo from "./images/logo.jpg"
+import Logo from "./images/logo check.png"
+//THIS IS THE SECTION FOR LAZY LOADING REACT COMPONENTS AND IMAGES FOR SPEED//
+
+const Form = lazy(()=>import("./components/Form"))
+const News = lazy(()=>import("./components/News"))
+const Prices = lazy(()=>import("./components/Prices"))
+const Testimonials = lazy(()=>import("./components/Testimonials"))
+const Vetenarians = lazy(()=>import("./components/Vetenarians"))
 function App() {
 
 
@@ -40,7 +33,6 @@ function App() {
   }
   
 
-  var subscribevalue = "SUBSCRIBE";
   
   let [toggle, setToggle] = useState(false)
   function navBar() {
@@ -55,9 +47,9 @@ setToggle(!toggle)
  <nav className='intro' id='intro'>
  
   <div className='container' id='section1'>
-  
-    <img src={Logo} className='logo'></img>
- 
+  <div id='section1'>
+  <a href="#section1"><img src={Logo} className='logo'></img></a>
+ </div>
 
     
   
@@ -69,13 +61,13 @@ setToggle(!toggle)
   </a>
   <div id='links'className={toggle ?'link' : 'offlink' }>
     <ul>
-      <li><a href="#section1">Home</a></li>
-      <li><a href='#section2'>Services</a></li>
-      <li><a href='#section3'>About</a></li>
-    <li><a href='#section4'>Appointment</a></li>
-    <li><a href='#section5'>Pet news</a></li>
-    <li><a href='#section6'>vets</a></li>
-    <li><a href='#section7'>contact</a></li>
+      <li><a href="#section1" onClick={navBar}>Home</a></li>
+      <li><a href='#section2' onClick={navBar}>Services</a></li>
+      <li><a href='#section3' onClick={navBar}>About</a></li>
+    <li><a href='#section4' onClick={navBar}>Appointment</a></li>
+    <li><a href='#section5' onClick={navBar}>Pet news</a></li>
+    <li><a href='#section6' onClick={navBar}>vets</a></li>
+    <li><a href='#section7' onClick={navBar}>contact</a></li>
     </ul>
     
   </div>
@@ -119,38 +111,28 @@ setToggle(!toggle)
   
  
  <div className='news_and_form'>
-  <div className='form' id='section4'>
+  
+    <Suspense fallback={<h1>Loading...</h1>}>
     <Form/>
-   </div>
-    
-  <div className='news_container' id='section5'>
-    <h2>PET NEWS</h2>
+    </Suspense>
+  
+    <Suspense fallback={<h1>Loading</h1>}>
       <News/>
-  </div>
- </div>
- <div className='prices'>
-  
-  <section>
-    <img src={image3}></img>
-  </section>
-  <section>
-  <img src={image4}></img>
-  </section>
-  <section>
-  <img src={image5}></img>
-  </section>
-  <section>
-    <p><img src={image6}></img></p>
-  </section>
-  
+      </Suspense>
  </div>
  
-<div id='section6'>
+ <Suspense fallback={<h1>Loading...</h1>}>
+<Prices/>
+</Suspense>
+  <Suspense fallback={<h1>Loading...</h1>}>
   <Vetenarians/>
-  </div>
-<div className='testimonial'>
+  </Suspense>
+  
+
+  <Suspense fallback={<h1>Loading</h1>}>
   <Testimonials/>
- </div>
+  </Suspense>
+ 
  
  <div className='footer_container' id='section7'>
 
@@ -164,10 +146,14 @@ setToggle(!toggle)
     
     
       <section>
+        
       <a href='https://facebook.com' target='_self'><img src={image30}></img></a>
+    
       </section>
       <section>
+        
       <a href='https://youtube.com' target='_self'><img src={image31}></img></a>
+      
       </section>
       <section>
       <a href='https://instagram.com' target='_self'><img src={image32}></img></a>

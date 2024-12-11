@@ -2,9 +2,9 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 //THESE ARE THE IMAGES FOR THE TESTIMONY SECTION OF TE WEBSITE
-import Person1 from './out-person1.jpg'
-import Person2 from './out-person2.jpg'
-import Person3 from './out-person3.jpg'
+import Person1 from './images/out-person1.jpg'
+import Person2 from './images/out-person2.jpg'
+import Person3 from './images/out-person3.jpg'
 function Testimonials() {
 
     
@@ -48,13 +48,14 @@ function Testimonials() {
       };
     
     return(
-        <>
+    <>
+        <div className='testimonial'>
         <h2>Testimonials</h2>
         <br></br>
         <Slider {...settings}>
         
 <div className="testimonial_card">
-<p>Sandton animal clinic saved my dog from cancer and now he is as lively as ever.
+<p>Sandton animal clinic saved my dog.
     Thanks to the great vetenarians that are giving their all to save lives.
 </p>
 <img src={Person1}></img>
@@ -71,6 +72,7 @@ function Testimonials() {
     <h4>Xing Cai</h4>
 </div>
         </Slider>
+        </div>
         </>
     )
 }

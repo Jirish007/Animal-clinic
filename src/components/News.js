@@ -1,5 +1,5 @@
-import image50 from './how to train your pet.jpg';
-import image40 from './dogs.jpg'
+import image50 from './images/how to train your pet.jpg';
+import image40 from './images/dogs.jpg'
 
 
 import { useState } from 'react';
@@ -27,6 +27,8 @@ const [isOpen2, setIsOpen2] = useState(false);
 
     return(
 <>
+<div className='news_container' id='section5'>
+<h2>PET NEWS</h2>
 <div className='franchise'>
 {isOpen1 && (
         <div className="popup1">
@@ -52,8 +54,6 @@ const [isOpen2, setIsOpen2] = useState(false);
 </div>
 
 
-
-<div className='news_containers'>
 
 
 <div className='news_main_articles'>
@@ -91,6 +91,8 @@ const [isOpen2, setIsOpen2] = useState(false);
         <hr></hr>
     </section>
 </div>
+<cite>"updated"</cite>
+
 </div>
 </>
     );

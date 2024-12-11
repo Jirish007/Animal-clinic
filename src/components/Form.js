@@ -38,8 +38,8 @@ let handleChange = (event)=> {
 }
 
 return(
-    <>
-    <>
+<>
+    <div className='form' id='section4'>
         <h2>GET AN APPOINTMENT</h2>
         <p>call 0607173434</p>
         <form method="post" onSubmit={submit}>
@@ -94,7 +94,7 @@ return(
             <br></br>
             {submitButton ? <input type="submit"></input>: <input type="button" value={submitValue} style={{backgroundColor: "green"}} onClick={submitStop}></input>}
         </form>
-    </>
+        </div>
     </>
 )
 }

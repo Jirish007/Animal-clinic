@@ -8,27 +8,34 @@
 
 .app{
   
-    
-
       font-family: "Open Sans", sans-serif;
       font-optical-sizing: auto;
       
       font-style: normal;
       font-variation-settings:
         "wdth" 40;
-    
-    
-    
     background-image: url(./images/light\ blue.jpg);
-    
 }
+/*Google fonts*/
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 2,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+  /*THIS ONE IS THE NAV SECTION*/
 .intro{ 
+
     background-image: url(./images/royal\ blue.jpg);
     height:auto;
     background-size: cover;
- margin-bottom: 2rem;
+ 
  position: relative;
  background-position: center;
+ padding: 10px;
  
 }
 .container{
@@ -36,6 +43,60 @@
     justify-content: space-between;
     height: 100%;
 }
+
+.link ul{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.offlink ul{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.intro ul li a:hover{
+    color: rgb(99, 0, 0);
+}
+
+ .logo{
+    margin: .5rem;
+width: 100px;
+height: 100px;
+ }
+
+ 
+ h1{
+    text-align: left;
+    padding-left:0;
+ }
+ 
+.link li{
+    list-style: none;
+    
+
+}
+.offlink li{
+    list-style: none;
+}
+.link  li a{
+    text-decoration: none;
+    padding:1rem;
+    color: black;
+margin-right: .5rem;
+}
+.offlink li a{
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    margin-right: .5rem;
+}
+
+
+
 /*THIS ONE IS THE "SERVICES" SECTION*/
 .why_title h2{
 color: white;
@@ -45,8 +106,10 @@ font-size: 2rem;
 }
 
 .why_us{
+text-align: center;
 display: flex;
 justify-content: space-around;
+padding: 5px;
 }
 
 
@@ -68,31 +131,23 @@ padding: 0.2rem;
 }
 .services_container img{
     width:200px;
-    height: 350px;
+    height: 420px;
     float: left;
     margin-right: .9rem;
-    
+
 }
 
 .services_container {
-   /* max-width: auto;*/
-    
     padding: 5.4px;
-   
-   
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  
-  
   .services_container p {
-    
     text-align: left;
    font-family: cursive;
   }
 
   /*THIS IS THE CSS SECTION FOR THE STYLING OF THE NEWS AND FORM*/
-  
 .news_and_form{
     display: flex;
     justify-content:space-around;
@@ -156,7 +211,7 @@ padding: 0.2rem;
 }
 .news_container{
     width: 30%;
-    height: 500px;
+    height: auto;
     margin-left: 2rem;
     margin-right: 2rem;
     
@@ -164,6 +219,7 @@ padding: 0.2rem;
 .news_container h2{
     text-align: center;
     margin-bottom: 1rem;
+    margin-top: 1.3rem;
 }
 .news_main_articles{
     display: flex;
@@ -259,72 +315,20 @@ padding: 0.2rem;
   }
   
   
-
-  
-
-
-
-
-
-
-.link li{
-    list-style: none;
-
-}
-.offlink li{
-    list-style: none;
-}
-.link  li a{
-    text-decoration: none;
-    padding:1rem;
-    color: black;
-margin-right: .5rem;
-}
-.offlink li a{
-    text-decoration: none;
-    padding: 1rem;
-    color: black;
-    margin-right: .5rem;
-}
-.link ul{
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-
-}
-.offlink ul{
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.intro ul li a:hover{
-    color: white;
-}
-
- .logo{
-    margin: .5rem;
-width: 100px;
-height: 100px;
- }
-
- 
- h1{
-    text-align: left;
-    padding-left:0;
- }
- 
-
+/*THIS SECTION IS FOR THE DOG GALLERY*/
  
  .prices{
      background-color: black;
      height: auto;
-     
+     display: flex;
+     justify-content: center;
+ padding: 10px;
+ gap: 4%;
+ transition: 1s;
  }
  .prices:hover{
      transition:1.5s;
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 
  }
  
@@ -333,20 +337,13 @@ height: 100px;
     height:200px;
 
 }
-.prices{
-    display: flex;
-    justify-content: center;
-padding: 10px;
-gap: 4%;
-}
 
-.prices{
-    transition: 1s;
-}
 .prices img:hover{
     transform: scale(1.3);
     z-index: 2;
+    box-shadow: 1px 12px 8px 5px #aaaaaa;
 }
+ /*THIS IS THE STYLING SECTION FOR THE VETENARIANS*/
 .vetenarians_container{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -369,74 +366,24 @@ justify-content: center;
 
 .vetenarians_slider{
 background-color: coral;
-margin: 1rem;
-height: 100px;
+
+height: auto;
 margin-bottom: 1rem;
 display: flex;
     justify-content: space-around;
+    padding: 10px;
 }
 .vetenarians_slider h4{
     background-color: white;
-    border-radius: 10px;
-    height: 50px;
-    padding: 1rem;
-}
-.vetenarians_slider a{
-    color: white;
-}
-.services_container{
-    margin-top:2rem;
-    margin-bottom: 2rem;
-}
-.footer{
-    display: flex;
-    justify-content: space-around;
-    margin: 1rem;
-}
-.footer img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-
-}
-
-.footer_container{
-    background-color:black;
-    color: white;
+    border-radius: 50%;
     height: auto;
     padding: 10px;
-}
-.footer_container h2{
-    color: white;
-    font-family: cursive;
-}
-
-.why_us section{
-padding: 1%;
-}
-
-#button{
-    position:absolute;
-    top: .75rem;
-    right: 1rem;
-    display:none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-    
-}
-
-.bar{
-    width:100% ;
-    height:3px ;
-    background-color:white ;
-    border-radius: 10px;
 }
 .vetenarians_slider img{
     width:40% ;
     height: 50px;
 }
+/*THIS IS FOR THE TESTIMONIAL*/
 .testimonial_card{
     
     text-align: center;
@@ -463,7 +410,59 @@ box-shadow: 1px 12px 8px 5px #aaaaaa;
     border-radius: 50px;
     position: absolute;
     left: 100px;
+    box-shadow: 1px 1px 3px 2px #aaaaaa;
 }
+
+
+
+
+
+
+
+ /*THIS IS THE STYLING SECTION FOR THE FOOTER*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+.footer_container{
+    background-color:black;
+    color: white;
+    height: auto;
+    padding: 10px;
+}
+.footer_container h2{
+    color: white;
+    font-family: cursive;
+}
+
+
+#button{
+    position:absolute;
+    top: .75rem;
+    right: 1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    
+}
+
+.bar{
+    width:100% ;
+    height:3px ;
+    background-color:white ;
+    border-radius: 10px;
+}
+
 
 @media only screen and (max-width:800px){
     .offlink ul li a{
@@ -510,20 +509,6 @@ transition: 1s ease-in-out;
  .footer_container{
     height: auto;
  }
- .why_us{
-    padding:1rem;
-text-align: none;
-    margin: 0;
- }
- .why_us section{
-padding: 1%;
- }
- .why_title h2{
-    text-align: center;
-    font-size: 2rem;
-    padding: 1rem;
-
-    }
 
 
 
@@ -555,6 +540,8 @@ width: 100%;
 
 .link ul a{
     color: white;
+    opacity:100%;
+    font-weight: bolder;
     text-decoration: none;
 font-size:18px;
 }
@@ -564,16 +551,11 @@ font-size:18px;
     transition: 1s;
     color: rgb(184, 46, 46);
 }
-.intro{
-    height: 100px;
-}
+
 .prices section img{
     width: 70px;
 }
-.why_us img{
-    width: 53px;
-    height: 53px;
-}
+
 
 .logo_img{
     width: 30px;
@@ -581,21 +563,21 @@ font-size:18px;
 }
 .link{
 position: absolute;
+opacity: 43%;
  right:0 ;
 top: 56px;
  background-image: url(./images/royal\ blue.jpg);
 width:100%;
-height: calc(60vh - 60px);
+height: calc(100vh - 0px);
 transition: all 0.3s ease-in;
 overflow:hidden ;
+
 }
 #button{
     cursor: pointer;
     display: flex;
 }
-.intro{
-    background-image: url(./images/royal\ blue.jpg);
-}
+
 .link ul{
     display: flex;
     flex-direction: column;
@@ -627,55 +609,71 @@ height: calc(60vh - 60px);
 transition: all 0.3s ease-in;
 overflow: hidden;
 }
-.intro{
-    height: 60px;
-}
-.email{
-    display: none;
+
+
 }
 
+@media only screen and (max-width:341px){
+    /*THIS IS FOR SERVICE SECTION*/
+    .services_container img{
+        width: 150px;
+        height: 300px;
+        margin-right: 0.5rem;
+    }
+    /*THIS IS FOR VETENARIANS SECTION*/
+    .venarians_container{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    /*THIS IS FOR TESTIMONIAL SECTION*/
+    .testimonial{
+        margin-top: none;
+    }
+  
 }
 
 
 @media only screen and (max-width:328px){
+    /*THIS IS THE STYLING SECTION FOR THE LOGO*/
+    .logo{
+        width: 50px;
+        height: 50px;
+    
+    }
+     /*THIS IS THE STYLING SECTION FOR THE NEWS AND FORM*/
     .news_container{
         width: 100%;
     }
     .prices img{
-        width: 20px;
+        width: 25px;
     }
     .form{
         width: 100%;
     }
+     /*THIS IS THE STYLING SECTION FOR THE PRICES*/
     .prices{
-        width: 100%;
+        padding: 3px;
+        gap: 4%;
     }
-    .prices{
-        padding: 10px;
-    }
-    .prices{
-        gap: 2%;
-    }
+    
     .prices section img{
         width:58px;
     }
+
+    .testimonial_card img{
+        left: 0.5px;
+    }
+    
+    
 }
-
-
-
-
-
-
-/*Google fonts*/
-
-
-
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 2,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+@media only screen and (max-width:269px){
+     /*THIS IS THE STYLING SECTION FOR THE TESTIMONIALS*/
+    .testimonial_card{
+       width: 350px;
+        max-width: 500px;
+        height:220px;
+    }
+.testimonial_card img{
+    top: 70%;
 }
-
+}

@@ -1,8 +1,8 @@
 
-import vet1 from './Anna.jpg';
-import vet2 from './Jerry.jpg';
-import vet3 from './Mike.jpg';
-import vet4 from './Sarah.jpg'
+import vet1 from './images/Anna.jpg';
+import vet2 from './images/Jerry.jpg';
+import vet3 from './images/Mike.jpg';
+
 
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
@@ -21,6 +21,7 @@ function Vetenarians() {
       
 return(
     <>
+    <div id='section6'>
     <div className='vetenarians_container'>
     <Slider {...settings}>
  
@@ -56,7 +57,7 @@ return(
 
 
 </div>
-    
+  </div>  
 </>
 );
 }
