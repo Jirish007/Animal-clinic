@@ -1,6 +1,6 @@
 import { lazy,Suspense } from 'react';
 import './index.css';
-
+import Footer from './components/Footer';
 //THIS IS THE SECTION FOR LAZY LOADING REACT COMPONENTS AND IMAGES FOR SPEED//
 const Navbar = lazy(()=>import("./components/Navbar"))
 const Services = lazy(()=>import("./components/Services"))
@@ -10,7 +10,7 @@ const News = lazy(()=>import("./components/News"))
 const Prices = lazy(()=>import("./components/Prices"))
 const Vetenarians = lazy(()=>import("./components/Vetenarians"))
 const Testimonials = lazy(()=>import("./components/Testimonials"))
-const Footer = lazy(()=>import("./components/Footer"))
+
 function App() {
  
   return (
@@ -55,9 +55,9 @@ function App() {
   <Suspense fallback={<h1>Loading</h1>}>
   <Testimonials/>
   </Suspense>
- <Suspense fallback={<h1>Loading...</h1>}>
+ 
  <Footer/>
- </Suspense>
+ 
 
  </div>
 </>
