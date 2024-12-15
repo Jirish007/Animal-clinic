@@ -61,10 +61,9 @@ const [isOpen3, setIsOpen3] = useState(false);
               </button>
             </div>
             <div className="modal-body">
-              <p> Despite their natural instincts as predators and competitors, some dogs surprisingly tend to like cats. This unusual affinity can be attributed to socialization and individual temperament. Dogs that are exposed to cats from an early age, particularly during their critical puppy socialization period, are more likely to develop a positive association with felines. This early exposure helps them understand that cats are not threats, but rather companions.
+              <p> content removed
               </p>
-              <br></br>
-              <p> Additionally, certain breeds and individual dogs with calm and gentle personalities are more inclined to coexist peacefully with cats. Breeds such as Labradors, Golden Retrievers, and Cavalier King Charles Spaniels are often known for their friendly and affectionate nature, making them more likely to get along with cats. Ultimately, the key to a harmonious dog-cat relationship lies in proper socialization, training, and individual temperament. </p>
+              
             </div>
           </div>
         </div>
@@ -82,15 +81,7 @@ const [isOpen3, setIsOpen3] = useState(false);
               </button>
             </div>
             <div className="modal2-body">
-              <p> Training your pet at home can be a rewarding and cost-effective way to strengthen your bond and improve their behavior. To start, establish a routine and set clear goals for what you want to achieve. Choose a quiet and distraction-free area for training, and use positive reinforcement techniques such as treats, praise, and affection.
-              </p>
-              <br></br>
-              <p> 
-Begin with simple commands like "sit," "stay," and "come," and gradually increase the difficulty level as your pet becomes more confident. Be consistent and patient, as training can take time. Use visual cues like hand signals and props to help your pet understand what you want them to do.
-  </p>
-  <br></br>
-  <p> 
-  Additionally, make sure to reward good behavior and avoid punishing bad behavior, as this can create anxiety and undermine the training process. With time, effort, and positive reinforcement, you can train your pet at home and enjoy a stronger, more loving relationship.  </p>
+             <p>Content remove</p>
             </div>
           </div>
         </div>
@@ -108,15 +99,7 @@ Begin with simple commands like "sit," "stay," and "come," and gradually increas
               </button>
             </div>
             <div className="modal3-body">
-              <p>  When it comes to caring for pets, some individuals stand out for their exceptional dedication, compassion, and expertise. Veterinarians, veterinary technicians, and animal behaviorists are often considered among the best caregivers for pets. These professionals possess in-depth knowledge of animal behavior, physiology, and psychology, enabling them to provide top-notch care.
-              </p>
-              <br></br>
-              <p>
-Additionally, experienced pet groomers, pet sitters, and dog walkers also play a vital role in ensuring the physical and emotional well-being of pets. These caregivers provide essential services such as exercise, socialization, and hygiene, helping to maintain pets' overall health and happiness.
- </p>
-              <br></br>
-              <p>  
-              Moreover, many animal shelters and rescue organizations are staffed by compassionate and dedicated individuals who work tirelessly to care for abandoned, abused, and neglected animals. These caregivers provide a safe haven, medical attention, and loving care to pets in need, helping them to recover and find forever homes.         </p>
+             <p>Content removed</p>
             </div>
           </div>
         </div>
@@ -133,15 +116,7 @@ Additionally, experienced pet groomers, pet sitters, and dog walkers also play a
               </button>
             </div>
             <div className="modal4-body">
-              <p>  Dogs are widely regarded as one of the best companions humans can have. Their unwavering loyalty, affection, and ability to provide comfort make them an invaluable addition to many families. Dogs have a unique capacity to sense their owner's emotions, providing solace and support during difficult times.
-              </p>
-              <br></br>
-              <p> Their intelligence, trainability, and eagerness to please make them highly versatile, from assisting individuals with disabilities to serving as search and rescue animals. Dogs also promote physical activity, encouraging their owners to engage in regular exercise, such as walking or running.
-              </p>
-              <br></br>
-              <p>  
-              Moreover, the bond between a dog and their owner can have a profound impact on mental health, reducing stress and anxiety while fostering a sense of connection and belonging. With their tails wagging and hearts full of love, dogs bring immense joy and companionship to countless lives, making them truly the best.              </p>
-              
+             <p>Content removed</p>
             </div>
           </div>
         </div>
