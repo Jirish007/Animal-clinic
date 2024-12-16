@@ -1,4 +1,4 @@
-import image50 from './images/how to train your pet.jpg';
+import image50 from './images/how to train your pet.jpg'
 import image40 from './images/dogs.jpg'
 
 
