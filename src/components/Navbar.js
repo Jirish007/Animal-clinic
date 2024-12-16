@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Logo from "./images/logo check.jpg"
+import Logo from "./images/logo check.png"
 function Navbar(){
     let [toggle, setToggle] = useState(false)
   function navBar() {
