@@ -1,8 +1,8 @@
 
-import image3 from './images/chihuahua.webp';
-import image4 from './images/dotted dog.webp';
-import image5 from './images/dog on grass.webp';
-import image6 from './images/scary dog.webp';
+import image3 from './images/chihuahua.jpg';
+import image4 from './images/dotted dog.jpg';
+import image5 from './images/dog on grass.jpg';
+import image6 from './images/scary dog.jpg';
 function Prices(){
 return(
     <>

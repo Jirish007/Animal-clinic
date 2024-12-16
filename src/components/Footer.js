@@ -1,7 +1,7 @@
 
-import image30 from './images/facebook.webp'
-import image31 from './images/youtube.webp'
-import image32 from './images/instagram.webp'
+import image30 from './images/facebook.jpg'
+import image31 from './images/youtube.jpg'
+import image32 from './images/instagram.jpg'
 
 
 function Footer(){

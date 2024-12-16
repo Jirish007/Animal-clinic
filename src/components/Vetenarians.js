@@ -1,7 +1,7 @@
 
-import vet1 from './images/Anna.webp';
-import vet2 from './images/Jerry.webp';
-import vet3 from './images/Mike.webp';
+import vet1 from './images/Anna.jpg';
+import vet2 from './images/Jerry.jpg';
+import vet3 from './images/Mike.jpg';
 
 
 import Slider from "react-slick"

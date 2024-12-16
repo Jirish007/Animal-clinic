@@ -1,5 +1,5 @@
 
-import imageAbout from "./images/about vet.webp"
+import imageAbout from "./images/about vet.jpg"
 function About(){
 return(
     <>
