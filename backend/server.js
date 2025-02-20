@@ -12,9 +12,9 @@ app.use(cors());
 
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'yourUsername',
-    password: 'yourPassword',
-    database: 'happyPetsClinic'
+    user: 'girish',
+    password: 'JCGt*12<3>',
+    database: 'happypets'
 });
 
 db.connect(err => {
