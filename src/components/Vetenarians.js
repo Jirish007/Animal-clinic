@@ -10,20 +10,20 @@ import "slick-carousel/slick/slick-theme.css"
 import { useRef } from 'react';
 
 function Vetenarians() {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 2,
-        slidesToScroll:2,
-        arrows: false
-      }
-      
+const settings = {
+dots: true,
+infinite: true,
+speed: 500,
+slidesToShow: 2,
+slidesToScroll:2,
+arrows: false
+}
+
 return(
-    <>
-    <div id='section6'>
-    <div className='vetenarians_container'>
-    <Slider {...settings}>
+<>
+<div id='section6'>
+<div className='vetenarians_container'>
+<Slider {...settings}>
  
 <div className='vet'>
 <p><img src={vet1}></img></p>
@@ -49,15 +49,15 @@ return(
 </div>
 <div className="vetenarians_slider">
 
-    <section>
-    <h4>Our Vetenarians</h4>
-    </section>
+<section>
+<h4>Our Vetenarians</h4>
+</section>
 
 
 
 
 </div>
-  </div>  
+</div>
 </>
 );
 }

@@ -1,443 +1,377 @@
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-}
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 
+}
 .app{
-  
-      font-family: "Open Sans", sans-serif;
-      font-optical-sizing: auto;
-      
-      font-style: normal;
-      font-variation-settings:
-        "wdth" 40;
-    background-image: url(./images/bluish\ green.jpg);
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+
+font-style: normal;
+font-variation-settings:"wdth" 40;
+background-image: url(./images/bluish\ green.jpg);
 }
 /*Google fonts*/
-
 .material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 2,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
-  }
-
-  /*THIS ONE IS THE NAV SECTION*/
+font-variation-settings:
+'FILL' 2,
+'wght' 400,
+'GRAD' 0,
+'opsz' 24
+}
+/*THIS ONE IS THE NAV SECTION*/
 .intro{ 
-
-    background-image: url(./images/royal\ blue.jpg);
-    height:auto;
-    background-size: cover;
- 
+background-image: url(./images/royal\ blue.jpg);
+height:auto;
+background-size: cover;
  position: relative;
  background-position: center;
  padding: 10px;
  
 }
 .container{
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
+display: flex;
+justify-content: space-between;
+height: 100%;
 }
 
 .link ul{
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-    
-
+font-size: 18px;
+display: flex;
+justify-content: space-between;
 }
 .offlink ul{
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
+font-size: 18px;
+display: flex;
+justify-content: space-between;
 }
-
-
 .intro ul li a:hover{
-    color: rgb(99, 0, 0);
+color: rgb(99, 0, 0);
 }
-
  .logo{
-    margin: .5rem;
+margin: .5rem;
 width: 100px;
 height: 100px;
  }
-
- 
  h1{
-    text-align: left;
-    padding-left:0;
+text-align: left;
+padding-left:0;
  }
- 
 .link li{
-    list-style: none;
-    
-
+list-style: none;
 }
 .offlink li{
-    list-style: none;
+list-style: none;
 }
-.link  li a{
-    text-decoration: none;
-    padding:1rem;
-    color: black;
+.linkli a{
+text-decoration: none;
+padding:1rem;
+color: black;
 margin-right: .5rem;
 }
 .offlink li a{
-    text-decoration: none;
-    padding: 1rem;
-    color: black;
-    margin-right: .5rem;
+text-decoration: none;
+padding: 1rem;
+color: black;
+margin-right: .5rem;
 }
-
-
 /*THIS ONE IS THE "SERVICES" SECTION*/
 .why_title h2{
 text-align: center;
 font-size: 2rem;
-
 }
-
 .why_us{
 text-align: center;
 display: flex;
 justify-content: space-around;
 padding: 5px;
 }
-
-
 /*THIS ONE IS THE "ABOUT SECTION'S" SECTION*/
 .services_container{
-    width: 100%;
-    background-image: url(./images/royal\ blue.jpg);
-    height: auto;
+width: 100%;
+background-image: url(./images/royal\ blue.jpg);
+height: auto;
 }
-
-
 .services_container h2{
-    text-align: center;
-    font-size: 2rem;
+text-align: center;
+font-size: 2rem;
 margin-bottom: .5rem;
 padding: 0.2rem;
-
 }
 .services_container img{
-    width:200px;
-    height: 420px;
-    float: left;
-    margin-right: .9rem;
-
+width:200px;
+height: 420px;
+float: left;
+margin-right: .9rem;
 }
-
 .services_container {
-    padding: 5.4px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .services_container p {
-    text-align: left;
-   font-family: cursive;
-  }
-
-  /*THIS IS THE CSS SECTION FOR THE STYLING OF THE NEWS AND FORM*/
+padding: 5.4px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.services_container p {
+text-align: left;
+ font-family: cursive;
+}
+/*THIS IS THE CSS SECTION FOR THE STYLING OF THE NEWS AND FORM*/
 .news_and_form{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    
-
-    margin-top: 2rem;
-   padding: 15px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+margin-top: 2rem;
+ padding: 15px;
 }
 .form{
-    background-color: gray;
-    width: 300px;
-    height: 500px;
-
-    text-align: center;
+background-color: gray;
+width: 300px;
+height: 500px;
+text-align: center;
 }
 .form input{
-    background-color:white;
+background-color:white;
 }
 .form input:focus{
-    background-image: url(./images/royal\ blue.jpg);
+background-image: url(./images/royal\ blue.jpg);
 }
-
 .form input[type="text"]{
-    height: 60px;
-    width: 100%;
-    outline: none;
+height: 60px;
+width: 100%;
+outline: none;
 }
 .form textarea {
-    width: 100%;
-    height: 100px;
-    background-color: white;
+width: 100%;
+height: 100px;
+background-color: white;
 }
 .form input[type="submit" ] {
-    border:1px solid #ddd;
-    border-radius: 10px;
-    width: 100px;
-    height: 30px;
-    background-image: url(./images/royal\ blue.jpg);
+border:1px solid #ddd;
+border-radius: 10px;
+width: 100px;
+height: 30px;
+background-image: url(./images/royal\ blue.jpg);
 }
 .form input[type="button"] {
-    border-radius: 10px;
-    width: 100px;
-    height: 30px;
-    
+border-radius: 10px;
+width: 100px;
+height: 30px;
+
 }
 .form_section,.text_section{
-    display: flex;
-    justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
 .s{
-    display: flex;
-    justify-content: baseline;
+display: flex;
+justify-content: baseline;
 }
 .form h2{
-    text-align: center;
-    }
+text-align: center;
+}
 .form h2,p{
-    text-align: center;
-    margin: 0;
+text-align: center;
+margin: 0;
 }
 .news_container{
-    width: 30%;
-    height: auto;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    
+width: 30%;
+height: auto;
+margin-left: 2rem;
+margin-right: 2rem;
+
 }
 .news_container h2{
-    text-align: center;
-    margin-bottom: 1rem;
-    margin-top: 1.3rem;
+text-align: center;
+margin-bottom: 1rem;
+margin-top: 1.3rem;
 }
 .news_main_articles{
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-    margin-bottom: 0.5rem;
+display: flex;
+justify-content: space-around;
+gap: 10px;
+margin-bottom: 0.5rem;
 }
 
 .news_main_articles cite{
-    margin-left: 1rem;
-    text-align: center;
+margin-left: 1rem;
+text-align: center;
 }
 .news_container h4:hover{
-    
-    cursor: pointer;
-    background-image: url(./images/royal\ blue.jpg);
+
+cursor: pointer;
+background-image: url(./images/royal\ blue.jpg);
 }
 
 .news_main_articles img{
-    width:100%;
-    height: 100px;
+width:100%;
+height: 100px;
 }
 
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 500px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  /*these are the modals when clicking the news*/
-  .modal-content {
-    width: 40%;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .close-button {
-    background-color: transparent;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .modal-body {
-    padding: 20px;
-  }
-  
-  /*THE SECOND MODAL*/
+position: fixed;
+top: 0;
+left: 0;
+width: 500px;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*these are the modals when clicking the news*/
+.modal-content {
+width: 40%;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
-  .modal2-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal2-content {
-    width: 40%;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .modal2-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .close2-button {
-    background-color: transparent;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .modal2-body {
-    padding: 20px;
-  }
+.modal-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.close-button {
+background-color: transparent;
+border: none;
+font-size: 24px;
+cursor: pointer;
+}
+
+.modal-body {
+padding: 20px;
+}
+
+/*THE SECOND MODAL*/
+
+.modal2-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.modal2-content {
+width: 40%;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal2-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.close2-button {
+background-color: transparent;
+border: none;
+font-size: 24px;
+cursor: pointer;
+}
+
+.modal2-body {
+padding: 20px;
+}
 /*this is the third modal*/
 
 .modal3-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal3-content {
-    width: 40%;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .modal3-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .close3-button {
-    background-color: transparent;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .modal3-body {
-    padding: 20px;
-  }
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.modal3-content {
+width: 40%;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal3-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.close3-button {
+background-color: transparent;
+border: none;
+font-size: 24px;
+cursor: pointer;
+}
+
+.modal3-body {
+padding: 20px;
+}
 
 /*this is the fourth modal*/
 .modal4-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal4-content {
-    width: 40%;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .modal4-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .close4-button {
-    background-color: transparent;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .modal4-body {
-    padding: 20px;
-  }
-
-
-
-
-/*THIS SECTION IS FOR THE DOG GALLERY*/
- 
- .prices{
-     background-color: black;
-     height: auto;
-     display: flex;
-     justify-content: center;
- padding: 10px;
- gap: 4%;
- transition: 1s;
- }
- .prices:hover{
-     transition:1.5s;
-    
-
- }
- 
-.prices section img{
-    width: 120px;
-    height:200px;
-
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.prices img:hover{
-    transform: scale(1.3);
-    z-index: 2;
-    box-shadow: 1px 12px 8px 5px #aaaaaa;
+.modal4-content {
+width: 40%;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal4-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.close4-button {
+background-color: transparent;
+border: none;
+font-size: 24px;
+cursor: pointer;
+}
+
+.modal4-body {
+padding: 20px;
 }
  /*THIS IS THE STYLING SECTION FOR THE VETENARIANS*/
 .vetenarians_container{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
 
 align-items: center;
 justify-content: center;
-    width: 100%;
+width: 100%;
 }
 .vet p{
-    text-align: center;
-    justify-content:center;
-    display: flex;
-    align-content: center;
+text-align: center;
+justify-content:center;
+display: flex;
+align-content: center;
 }
 .vet img{
-    width: 88%;
-    height: 200px;
-    
+width: 88%;
+height: 200px;
+
 }
 
 .vetenarians_slider{
@@ -446,47 +380,47 @@ background-color: coral;
 height: auto;
 margin-bottom: 1rem;
 display: flex;
-    justify-content: space-around;
-    padding: 10px;
+justify-content: space-around;
+padding: 10px;
 }
 .vetenarians_slider h4{
-    background-color: white;
-    border-radius: 50%;
-    height: auto;
-    padding: 10px;
+background-color: white;
+border-radius: 50%;
+height: auto;
+padding: 10px;
 }
 .vetenarians_slider img{
-    width:40% ;
-    height: 50px;
+width:40% ;
+height: 50px;
 }
 /*THIS IS FOR THE TESTIMONIAL*/
 .testimonial_card{
-    
-    text-align: center;
+
+text-align: center;
 box-shadow: 1px 12px 8px 5px #aaaaaa;
-    max-width: 500px;
-    height: 200px;
-    margin: auto;
-    background-color:white;
-    position: relative;
-    padding: 10px;
+max-width: 500px;
+height: 200px;
+margin: auto;
+background-color:white;
+position: relative;
+padding: 10px;
 }
 
 .testimonial{
 
-    margin: 2rem;
-    text-align: center;
-    position: relative;
+margin: 2rem;
+text-align: center;
+position: relative;
 
 
 }
 .testimonial_card img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    position: absolute;
-    left: 100px;
-    box-shadow: 1px 1px 3px 2px #aaaaaa;
+width: 50px;
+height: 50px;
+border-radius: 50px;
+position: absolute;
+left: 100px;
+box-shadow: 1px 1px 3px 2px #aaaaaa;
 }
 
 
@@ -497,75 +431,75 @@ box-shadow: 1px 12px 8px 5px #aaaaaa;
 
  /*THIS IS THE STYLING SECTION FOR THE FOOTER*/
 .footer{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 0.5rem;
+display: flex;
+justify-content: space-around;
+margin-top: 0.5rem;
 }
 .footer img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+width: 50px;
+height: 50px;
+border-radius: 50px;
 
 }
 
 .footer_container{
-    background-color:black;
-    color: white;
-    height: auto;
-    padding: 10px;
+background-color:black;
+color: white;
+height: auto;
+padding: 10px;
 }
 .footer_container h2{
-    color: white;
-    font-family: cursive;
+color: white;
+font-family: cursive;
 }
 
 
 #button{
-    position:absolute;
-    top: .75rem;
-    right: 1rem;
-    display:none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-    
+position:absolute;
+top: .75rem;
+right: 1rem;
+display:none;
+flex-direction: column;
+justify-content: space-between;
+width: 30px;
+height: 21px;
+
 }
 
 .bar{
-    width:100% ;
-    height:3px ;
-    background-color:white ;
-    border-radius: 10px;
+width:100% ;
+height:3px ;
+background-color:white ;
+border-radius: 10px;
 }
 
 
 @media only screen and (max-width:800px){
-    .offlink ul li a{
-        font-size: 18px;
-    }
-    .testimonial_card{
-        max-width: 350px;
-    }
-    .testimonial_card img{
-        left: 25px;
-    }
-    .offlink  li a{
-        text-decoration: none;
-        padding:1rem;
-        color:white;
-    margin-right: .5rem;
-    }
-    
-    .offlink ul{
+.offlink ul li a{
+font-size: 18px;
+}
+.testimonial_card{
+max-width: 350px;
+}
+.testimonial_card img{
+left: 25px;
+}
+.offlinkli a{
+text-decoration: none;
+padding:1rem;
+color:white;
+margin-right: .5rem;
+}
+
+.offlink ul{
 list-style: none;
-    }
-    .offlink ul{
-        display: flex;
-        flex-direction: column;
-    }
+}
+.offlink ul{
+display: flex;
+flex-direction: column;
+}
 .intro ul li{
-    font-size:10px;
+font-size:10px;
 }
 .offlink a:hover{
 background-color: red;
@@ -573,17 +507,17 @@ transition: 1s ease-in-out;
 }
 
  .news_and_form{
-    flex-direction: column;
+flex-direction: column;
  }
  .footer{
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
  }
  
  .footer_container{
-    height: auto;
+height: auto;
  }
 
 
@@ -591,51 +525,51 @@ transition: 1s ease-in-out;
 
 
 .news_container{
-    width: 100%;
+width: 100%;
 }
 .form input[type = "number"]{
 height: 40px;
 width: 100%;
 }
  h2{
-     text-align: center;
-     padding:100;
-     text-transform: uppercase;
-     font-weight: bold;
-     color: white;
-     font-size: 20px;
+ text-align: center;
+ padding:100;
+ text-transform: uppercase;
+ font-weight: bold;
+ color: white;
+ font-size: 20px;
  }
  
 .hover{
-    transition: 1s;
+transition: 1s;
 }
 .hover img:hover{
-    transform: scale(1.3);
-    z-index: 2;
+transform: scale(1.3);
+z-index: 2;
 }
 
 .link ul a{
-    color: white;
-    opacity:100%;
-    font-weight: bolder;
-    text-decoration: none;
+color: white;
+opacity:100%;
+font-weight: bolder;
+text-decoration: none;
 font-size:18px;
 }
 
 
 .link ul li a:hover{
-    transition: 1s;
-    color: rgb(184, 46, 46);
+transition: 1s;
+color: rgb(184, 46, 46);
 }
 
 .prices section img{
-    width: 70px;
+width: 70px;
 }
 
 
 .logo_img{
-    width: 30px;
-    height: 30px;
+width: 30px;
+height: 30px;
 }
 .link{
 position: absolute;
@@ -650,36 +584,36 @@ overflow:hidden ;
 
 }
 #button{
-    cursor: pointer;
-    display: flex;
+cursor: pointer;
+display: flex;
 }
 
 .link ul{
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 .link ul li{
 
-    margin-top: 22px;
-    margin-bottom: 25px;
+margin-top: 22px;
+margin-bottom: 25px;
 }
 .offlink ul li{
-    margin-bottom: 25px;
+margin-bottom: 25px;
 }
 .offlink ul li a{
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .offlink{
-    
-    width: 0;
-    position: absolute;
-    right: 0;
-    top: 56px;
-    background-image: url(./images/royal\ blue.jpg);
-    
-   
+
+width: 0;
+position: absolute;
+right: 0;
+top: 56px;
+background-image: url(./images/royal\ blue.jpg);
+
+ 
 
 height: calc(60vh - 60px);
 transition: all 0.3s ease-in;
@@ -687,70 +621,59 @@ overflow: hidden;
 }
 
 
-  
+
 }
 
 @media only screen and (max-width:341px){
-    /*THIS IS FOR SERVICE SECTION*/
-    .services_container img{
-        width: 150px;
-        height: 300px;
-        margin-right: 0.5rem;
-    }
-    /*THIS IS FOR VETENARIANS SECTION*/
-    .venarians_container{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    /*THIS IS FOR TESTIMONIAL SECTION*/
-    .testimonial{
-        margin-top: none;
-    }
-  
+/*THIS IS FOR SERVICE SECTION*/
+.services_container img{
+width: 150px;
+height: 300px;
+margin-right: 0.5rem;
+}
+/*THIS IS FOR VETENARIANS SECTION*/
+.venarians_container{
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+/*THIS IS FOR TESTIMONIAL SECTION*/
+.testimonial{
+margin-top: none;
+}
+
 }
 
 
 @media only screen and (max-width:328px){
-    /*THIS IS THE STYLING SECTION FOR THE LOGO*/
-    .logo{
-        width: 50px;
-        height: 50px;
-    
-    }
-     /*THIS IS THE STYLING SECTION FOR THE NEWS AND FORM*/
-    .news_container{
-        width: 100%;
-    }
-    .prices img{
-        width: 25px;
-    }
-    .form{
-        width: 100%;
-    }
-     /*THIS IS THE STYLING SECTION FOR THE PRICES*/
-    .prices{
-        padding: 3px;
-        gap: 4%;
-    }
-    
-    .prices section img{
-        width:58px;
-    }
+/*THIS IS THE STYLING SECTION FOR THE LOGO*/
+.logo{
+width: 50px;
+height: 50px;
 
-    .testimonial_card img{
-        left: 0.5px;
-    }
-    
-    
+}
+ /*THIS IS THE STYLING SECTION FOR THE NEWS AND FORM*/
+.news_container{
+width: 100%;
+}
+
+.form{
+width: 100%;
+}
+
+.testimonial_card img{
+left: 0.5px;
+}
+
+
 }
 @media only screen and (max-width:269px){
-     /*THIS IS THE STYLING SECTION FOR THE TESTIMONIALS*/
-    .testimonial_card{
-       width: 350px;
-        max-width: 500px;
-        height:220px;
-    }
+ /*THIS IS THE STYLING SECTION FOR THE TESTIMONIALS*/
+.testimonial_card{
+ width: 350px;
+max-width: 500px;
+height:220px;
+}
 .testimonial_card img{
-    top: 70%;
+top: 70%;
 }
 }
