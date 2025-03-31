@@ -1,5 +1,5 @@
-import image50 from './images/how to train your pet.jpg'
-import image40 from './images/dogs.jpg'
+import image50 from './images/how to train your pet.webp'
+import image40 from './images/dogs.webp'
 
 
 import { useState } from 'react';

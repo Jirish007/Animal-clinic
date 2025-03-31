@@ -2,9 +2,9 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 //THESE ARE THE IMAGES FOR THE TESTIMONY SECTION OF TE WEBSITE
-import Person1 from './images/out-person1.jpg'
-import Person2 from './images/out-person2.jpg'
-import Person3 from './images/out-person3.jpg'
+import Person1 from './images/out-person1.webp'
+import Person2 from './images/out-person2.webp'
+import Person3 from './images/out-person3.webp'
 function Testimonials() {
 
 
